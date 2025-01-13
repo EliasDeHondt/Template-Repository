@@ -1,0 +1,21 @@
+{
+    "name": "Level Up",
+    "short_name": "Level Up",
+    "description": "Bij Level Up bieden we een unieke mix van sport, plezier en entertainment voor jong en oud. Wij zijn dé bestemming voor verjaardagsfeestjes, teambuilding, vrijgezellenfeesten en sportactiviteiten.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#49b373",
+    "theme_color": "#49b373",
+    "icons": [
+        {
+            "src": "https://levelup.be/assets/media/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://levelup.be/assets/media/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
