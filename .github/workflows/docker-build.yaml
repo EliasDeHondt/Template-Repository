@@ -34,4 +34,4 @@ jobs:
           echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u ${{ needs.username-to-lowercase.outputs.LOWERCASE_USERNAME }} --password-stdin
       - name: Build/Push Frontend Docker Image
         run: |
-          docker build --push -t ghcr.io/${{ needs.username-to-lowercase.outputs.LOWERCASE_USERNAME }}/k10s-frontend:latest ./App/Frontend
+          docker build --push -t ghcr.io/${{ needs.username-to-lowercase.outputs.LOWERCASE_USERNAME }}/xxxx-frontend:latest ./
